@@ -3,6 +3,7 @@ package com.vaannila.domain;
 public class User {
 
 	private String name;
+	private String work;
 	private String password;
 	private String gender;
 	private String country;
@@ -12,6 +13,9 @@ public class User {
 	
 	public String getName() {
 		return name;
+	}
+	public String getWork() {
+		return work;
 	}
 	public void setName(String name) {
 		this.name = name;
