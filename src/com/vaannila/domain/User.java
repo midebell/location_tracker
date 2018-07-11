@@ -4,6 +4,7 @@ package com.vaannila.domain;
 public class User {
 
 	private String name;
+	private String work;
 	private String password;
 	private String gender;
 	private String country;
@@ -11,7 +12,10 @@ public class User {
 	private String[] community;
 	private Boolean mailingList;
 	
-	
+	public String getWork() {
+		return work;
+	}
+
 	public String getName() {
 		return name;
 	}
