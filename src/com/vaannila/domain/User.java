@@ -16,6 +16,7 @@ public class User {
 		return work;
 	}
 
+	
 	public String getName() {
 		return name;
 	}
